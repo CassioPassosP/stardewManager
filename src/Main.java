@@ -1,5 +1,6 @@
 import classes.Animal;
 import classes.GalinhaMae;
+import classes.Ovelha;
 import classes.VacaMae;
 import classes.subclasses.Bezerro;
 import classes.subclasses.Pintinho;
@@ -16,11 +17,13 @@ public class Main {
         Animal vaca = new VacaMae(103, "Vaca", "Holandesa", "Mimosa", 5, "Amamentando um bezerro");
         Animal pintinho = new Pintinho(104, "Pintinho", "Leghorn", "Piu-Piu", 1, "Comendo");
         Animal bezerro = new Bezerro(105, "Bezerro", "Nelore", "Júnior", 1, "Mamando");
+        Animal ovelha = new Ovelha(106, "Ovelha", "Merino", "Luna", 4, "Pastando");
 
         animal.setAnimais(galinha);
         animal.setAnimais(vaca);
         animal.setAnimais(pintinho);
         animal.setAnimais(bezerro);
+        animal.setAnimais(ovelha);
 
         while (escolha != 3) {
 
