@@ -52,6 +52,7 @@ public class Main {
                 case 2:
 
 
+                    escolha = 0;
                     break;
 
                 case 3:
@@ -61,7 +62,7 @@ public class Main {
 
                 default:
                     System.out.println("Opcao invalida.");
-
+                    escolha = 0;
                     break;
             }
         }

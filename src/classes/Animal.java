@@ -94,7 +94,7 @@ public class Animal implements interfaces.Animal {
     public String toString() {
         return  "[ID: " + id + "] " + nome + " (" + tipo + ')' +
                 "\n - Raca: " + raca +
-                "\n - Idade: " + idade + " | Status: " + status +
+                "\n - Idade: " + idade + " anos | Status: " + status +
                 "\n - Som: " + EmitirSom();
     }
 }
