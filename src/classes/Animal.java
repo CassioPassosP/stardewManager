@@ -97,4 +97,5 @@ public class Animal implements interfaces.Animal {
                 "\n - Idade: " + idade + " anos | Status: " + status +
                 "\n - Som: " + EmitirSom();
     }
+
 }

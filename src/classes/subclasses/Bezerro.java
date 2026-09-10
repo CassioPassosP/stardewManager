@@ -10,6 +10,6 @@ public class Bezerro extends VacaMae {
 
     @Override
     public String EmitirSom() {
-        return super.EmitirSom();
+        return "Meee meeeeee";
     }
 }

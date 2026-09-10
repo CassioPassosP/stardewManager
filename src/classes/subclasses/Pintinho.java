@@ -10,6 +10,6 @@ public class Pintinho extends GalinhaMae {
 
     @Override
     public String EmitirSom() {
-        return super.EmitirSom();
+        return "Piuuuu piu piiuuuu!";
     }
 }
