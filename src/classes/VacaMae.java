@@ -2,8 +2,8 @@ package classes;
 
 public class VacaMae extends Animal {
 
-    public VacaMae(int id, String tipo, String nome, int idade, String status) {
-        super(id, tipo, nome, idade, status);
+    public VacaMae(int id, String tipo, String raca, String nome, int idade, String status) {
+        super(id, tipo, raca, nome, idade, status);
     }
 
     @Override

@@ -12,6 +12,9 @@ public class Animal implements interfaces.Animal {
     private int idade;
     private String status;
 
+    public Animal() {
+    }
+
     public Animal(int id, String tipo, String raca, String nome, int idade, String status) {
         this.id = id;
         this.tipo = tipo;
@@ -89,9 +92,9 @@ public class Animal implements interfaces.Animal {
 
     @Override
     public String toString() {
-        return  "[ID: " + id + "] " + nome + "(" + tipo + ')' +
+        return  "[ID: " + id + "] " + nome + " (" + tipo + ')' +
                 "\n - Raca: " + raca +
                 "\n - Idade: " + idade + " | Status: " + status +
-                "\n" + EmitirSom();
+                "\n - Som: " + EmitirSom();
     }
 }

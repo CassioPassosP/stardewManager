@@ -2,8 +2,8 @@ package classes;
 
 public class GalinhaMae extends Animal {
 
-    public GalinhaMae(int id, String tipo, String nome, int idade, String status) {
-        super(id, tipo, nome, idade, status);
+    public GalinhaMae(int id, String tipo, String raca, String nome, int idade, String status) {
+        super(id, tipo, raca, nome, idade, status);
     }
 
     @Override
