@@ -22,8 +22,10 @@ public class Main {
         animal.setAnimais(pintinho);
         animal.setAnimais(bezerro);
 
-        System.out.println("""
-                --- MENU PRINCIPAL ---
+        while (escolha != 3) {
+
+            System.out.println("""
+                \n--- MENU PRINCIPAL ---
                 1. Ver animais do curral
                 2. Comércio (Coletar/Retirar produtos)
                 3. sair 
@@ -31,9 +33,8 @@ public class Main {
                 Escolha uma opcao:
                 """);
 
-        escolha = leitura.nextInt();
+            escolha = leitura.nextInt();
 
-        while (escolha != 3) {
             switch (escolha) {
                 case 1:
                     System.out.println("""
@@ -45,7 +46,7 @@ public class Main {
                         System.out.println(animalMap.toString());
                     }
 
-                    escolha = 3;
+                    escolha = 0;
                     break;
 
                 case 2:
