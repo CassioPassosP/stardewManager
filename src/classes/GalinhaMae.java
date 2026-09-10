@@ -1,8 +1,11 @@
 package classes;
 
-import interfaces.Animal;
+public class GalinhaMae extends Animal {
 
-public class GalinhaMae implements Animal {
+    public GalinhaMae(int id, String tipo, String nome, int idade, String status) {
+        super(id, tipo, nome, idade, status);
+    }
+
     @Override
     public String coletarProduto() {
         return "Ovos coletados.";
