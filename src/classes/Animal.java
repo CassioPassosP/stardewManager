@@ -1,8 +1,5 @@
 package classes;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public abstract class Animal implements interfaces.Animal {
     private int id;
     private String tipo;
@@ -74,7 +71,7 @@ public abstract class Animal implements interfaces.Animal {
     }
 
     @Override
-    public String EmitirSom() {
+    public String emitirSom() {
         return "";
     }
 
@@ -83,7 +80,7 @@ public abstract class Animal implements interfaces.Animal {
         return  "[ID: " + id + "] " + nome + " (" + tipo + ')' +
                 "\n - Raca: " + raca +
                 "\n - Idade: " + idade + " anos | Status: " + status +
-                "\n - Som: " + EmitirSom();
+                "\n - Som: " + emitirSom();
     }
 
 }

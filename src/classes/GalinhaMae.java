@@ -12,7 +12,7 @@ public class GalinhaMae extends Animal {
     }
 
     @Override
-    public String EmitirSom() {
+    public String emitirSom() {
         return "Pó Pó Pó";
     }
 }

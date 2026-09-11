@@ -9,7 +9,7 @@ public class Pintinho extends GalinhaMae {
     }
 
     @Override
-    public String EmitirSom() {
+    public String emitirSom() {
         return "Piuuuu piu piiuuuu!";
     }
 }

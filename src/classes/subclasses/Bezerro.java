@@ -9,7 +9,7 @@ public class Bezerro extends VacaMae {
     }
 
     @Override
-    public String EmitirSom() {
+    public String emitirSom() {
         return "Meee meeeeee";
     }
 }

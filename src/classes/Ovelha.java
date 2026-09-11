@@ -12,7 +12,7 @@ public class Ovelha extends Animal{
     }
 
     @Override
-    public String EmitirSom() {
+    public String emitirSom() {
         return "Méééé";
     }
 }
