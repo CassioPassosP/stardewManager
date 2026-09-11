@@ -5,11 +5,13 @@ import classes.VacaMae;
 import classes.subclasses.Bezerro;
 import classes.subclasses.Pintinho;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Animal animal = new Animal();
+        List<Animal> animais = new ArrayList<>();
         Scanner leitura = new Scanner(System.in);
         int escolha = 0;
 
@@ -19,11 +21,11 @@ public class Main {
         Animal bezerro = new Bezerro(105, "Bezerro", "Nelore", "Júnior", 1, "Mamando");
         Animal ovelha = new Ovelha(106, "Ovelha", "Merino", "Luna", 4, "Pastando");
 
-        animal.setAnimais(galinha);
-        animal.setAnimais(vaca);
-        animal.setAnimais(pintinho);
-        animal.setAnimais(bezerro);
-        animal.setAnimais(ovelha);
+        animais.add(galinha);
+        animais.add(vaca);
+        animais.add(pintinho);
+        animais.add(bezerro);
+        animais.add(ovelha);
 
         while (escolha != 3) {
 
@@ -45,7 +47,7 @@ public class Main {
                 ANIMAIS NO CURRAL:
                 -----------------------------------------
                 """);
-                    for (Animal animalMap : animal.getAnimais()){
+                    for (Animal animalMap : animais){
                         System.out.println(animalMap.toString());
                     }
 

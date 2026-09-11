@@ -3,17 +3,13 @@ package classes;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Animal implements interfaces.Animal {
-    private static final List<Animal> animais = new ArrayList<>();
+public abstract class Animal implements interfaces.Animal {
     private int id;
     private String tipo;
     private String raca;
     private String nome;
     private int idade;
     private String status;
-
-    public Animal() {
-    }
 
     public Animal(int id, String tipo, String raca, String nome, int idade, String status) {
         this.id = id;
@@ -70,14 +66,6 @@ public class Animal implements interfaces.Animal {
 
     public void setStatus(String status) {
         this.status = status;
-    }
-
-    public List<Animal> getAnimais() {
-        return this.animais;
-    }
-
-    public void setAnimais(Animal animal) {
-        this.animais.add(animal);
     }
 
     @Override
