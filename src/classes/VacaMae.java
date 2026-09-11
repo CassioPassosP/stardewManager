@@ -12,7 +12,7 @@ public class VacaMae extends Animal {
     }
 
     @Override
-    public String EmitirSom() {
+    public String emitirSom() {
         return "Muuuuu MUUUUUUU!";
     }
 }
